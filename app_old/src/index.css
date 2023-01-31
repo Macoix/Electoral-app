@@ -1,0 +1,9 @@
+.ant-select-selector{
+  color: #212529;
+  border: 1px solid #ced4da;
+  border-radius: 0.35rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}

@@ -1,0 +1,11 @@
+{
+    "dev": {
+        "user": "",
+        "password": "",
+        "database": "",
+        "host": "",
+        "port": "",
+        "dialect": "mysql",
+        "logging": false
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "electoral-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "api",
+    "app"
+  ],
+  "scripts": {
+    "dev:app": "npm run dev --workspace=app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "5.48.2",
+    "eslint": "8.32.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-astro": "0.23.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-n": "15.6.1",
+    "eslint-plugin-promise": "6.1.1",
+    "prettier": "^2.8.3",
+    "prettier-standard": "16.4.1",
+    "ts-standard": "12.0.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/ts-standard/eslintrc.json"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "prettier": "prettier-standard",
+  "dependencies": {
+    "framer-motion": "8.5.4"
+  }
+}

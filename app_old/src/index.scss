@@ -1,0 +1,166 @@
+// 3rd-party Plugins
+@import "~highlight.js/styles/googlecode.css";
+@import "~perfect-scrollbar/css/perfect-scrollbar.css";
+
+// Theme Styles
+@import "./_metronic/_assets/sass/style.react.scss";
+
+// Default Layout themes
+// @import "./_metronic/_assets/sass/themes/layout/header/base/light.scss";
+// @import "./_metronic/_assets/sass/themes/layout/header/menu/light.scss";
+// @import "./_metronic/_assets/sass/themes/layout/brand/dark.scss";
+// @import "./_metronic/_assets/sass/themes/layout/aside/dark.scss";
+
+// Header themes
+// Light
+//@import "./_metronic/_assets/sass/themes/layout/header/base/light.scss";
+// Dark
+// @import "./_metronic/_assets/sass/themes/layout/header/base/dark.scss";
+
+// Header Menu themes
+// Light
+//@import "./_metronic/_assets/sass/themes/layout/header/menu/light.scss";
+// Dark
+// @import "./_metronic/_assets/sass/themes/layout/header/menu/dark.scss";
+
+// Brand themes
+// .brand-dark {
+//   @import "./_metronic/_assets/sass/themes/layout/brand/dark.scss";
+// }
+// // Light
+// .brand-light {
+//   @import "./_metronic/_assets/sass/themes/layout/brand/light.scss";
+// }
+
+// Aside themes
+// Dark
+//@import "./_metronic/_assets/sass/themes/layout/aside/dark.scss";
+// Light
+// @import "./_metronic/_assets/sass/themes/layout/aside/light.scss";
+
+// .example-highlight {
+//   padding: 0rem 1.5rem 1.75rem !important;
+// }
+
+.example-highlight > pre {
+  background: none transparent !important;
+  margin: 0 !important;
+  padding-top: 0.5rem;
+  code {
+      overflow-y: auto;
+      display: block;
+
+      span {
+        background: none transparent !important;
+      }
+  }
+}
+
+.json > pre {
+  background: none #fff !important;
+
+}
+
+.example-code > .json {
+  background: none #fff !important;
+}
+
+.symbol.symbol-45 > svg {
+  width: 100%;
+  max-width: 45px;
+  height: 45px;
+}
+
+.react-bootstrap-table {
+  overflow-x: auto;
+}
+
+.react-bootstrap-table {
+  th {
+    outline: none;
+
+    &.sortable {
+      .svg-icon-sort {
+        opacity: 0;
+      }
+
+      &:hover {
+        cursor: pointer;
+
+        .svg-icon-sort {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .table.table-head-custom thead tr {
+    .sortable-active {
+        color: $primary !important;
+    }
+  }
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.display-block {
+  display: block;
+}
+
+.ant-select-selector{
+  color: #212529 !important;
+  border: 1px solid #ced4da !important;
+  border-radius: 0.35rem !important;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none;
+}
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-color: #86b7fe !important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) !important;
+}
+
+.form-control-solid.ant-input {
+  background-color: #F3F6F9 !important;
+}
+.form-control-solid.ant-input:focus {
+  background-color: #EBEDF3 !important;
+}
+
+.control-form .ant-select-selector{
+  background-color: #F3F6F9 !important;
+    border-color: #F3F6F9 !important;
+    color: #3F4254 !important;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    padding-bottom: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    height: auto !important;
+    border: 0 !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+.control-form .ant-select-selector .ant-select-selection-search-input{
+  height: 100% !important;
+  padding-left: 0.75rem !important;
+  padding-right: 1.5rem !important;
+}
+
+.control-form.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: #EBEDF3 !important;
+    border-color: #EBEDF3 !important;
+    color: #3F4254 !important;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    box-shadow: none !important;
+}
+
+.form-control.ant-input-password-large .ant-input{
+  background-color: transparent !important;
+}
+
+.anticon{
+  vertical-align: 0.1em !important;
+}
