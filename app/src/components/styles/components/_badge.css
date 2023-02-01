@@ -1,0 +1,15 @@
+.badge, .badge-dot {
+  @apply text-xs text-white bg-red-500 rounded-full py-0.5 px-2
+}
+
+.badge-dot {
+  @apply w-2 h-2
+}
+
+.badge-inner {
+  @apply absolute top-0 z-10 translate-x-2/4 -translate-y-2/4 scale-y-100 scale-x-100 skew-x-0 skew-y-0 rotate-0 right-0
+}
+
+.badge-wrapper {
+  @apply flex relative
+}
