@@ -1,0 +1,15 @@
+.tag {
+  @apply inline-flex items-center rounded-full border text-xs leading-4 whitespace-nowrap py-1 px-2.5
+}
+
+.tag-affix {
+  @apply rounded-full bg-gray-300 w-2 h-2
+}
+
+.tag-prefix {
+  margin-right: 0.375rem;
+}
+
+.tag-suffix {
+  margin-left: 0.375rem;
+}
