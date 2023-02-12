@@ -1,0 +1,35 @@
+.card {
+  @apply rounded-lg bg-white
+}
+
+.card-bordered {
+  @apply border border-gray-200
+}
+
+.card-body {
+  @apply p-5
+}
+
+.card-header-border {
+  @apply border-b-[1px] border-gray-200
+}
+
+.card-footer-border {
+  @apply border-t-[1px] border-gray-200
+}
+
+.card-header, .card-footer {
+  @apply py-3 px-5
+}
+
+.card-footer {
+  @apply rounded-br-lg rounded-bl-lg
+}
+
+.card-header-extra {
+  @apply flex items-center justify-between
+}
+
+.card-clickable {
+  @apply cursor-pointer
+}
