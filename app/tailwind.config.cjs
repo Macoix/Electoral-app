@@ -7,6 +7,7 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
     './safelist.txt',
   ],
+  darkMode: "class",
   theme: {
     extend: {},
   },
